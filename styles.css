@@ -26,10 +26,21 @@ body {
     font-family: 'Heebo', sans-serif;
     font-size: 25px;
     color: white;
+    cursor: pointer;
+}
+
+.navbar-item-description {
+    display: block;
+    margin-top: 20px;    
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-item-description:hover {
+    color: black;
 }
 
 .navbar-img {
-    padding: 0;
     transform: rotate(-10deg);
     transform-origin: bottom left;
     transition: transform 0.2s ease-in-out;
