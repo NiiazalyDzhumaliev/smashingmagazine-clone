@@ -28,6 +28,18 @@ body {
     color: white;
 }
 
+.navbar-img {
+    padding: 0;
+    transform: rotate(-10deg);
+    transform-origin: bottom left;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navbar-img:hover {
+    transform: rotate(0);
+    transform-origin: bottom left;
+}
+
 .membership-img {
     height: 3.5rem;
 }
