@@ -2,6 +2,32 @@ body {
     margin: 0;
 }
 
+
+/* Navbar */
+
+
 .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 160px;
+    list-style-type: none;
     background-color: #d33a2c;
+}
+
+.navbar-img {
+    height: 3rem;
+}
+
+.membership {
+    display: flex;
+    flex-direction: column;
+}
+
+.membership-img {
+    height: 3.5rem;
+}
+
+.smashing-img {
+    height: 5rem;
 }
