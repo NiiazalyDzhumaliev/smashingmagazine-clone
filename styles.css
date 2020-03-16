@@ -9,6 +9,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
     height: 160px;
     list-style-type: none;
     background-color: #d33a2c;
@@ -22,6 +23,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: 'Heebo', sans-serif;
+    font-size: 21px;
+    color: white;
 }
 
 .membership-img {
@@ -35,8 +39,25 @@ body {
 .topics-input {
     display: flex;
     align-items: center;
+    margin-right: 20px;
+}
+
+.nav-input {
+    padding: 10px;
+    border: 3px solid white;
+    border-radius: 8px;
+    width: 130px;
+    background-color: transparent;
+}
+
+.nav-input::placeholder {
+    text-align: center;
 }
 
 .fa-search {
     position: absolute;
+    margin-left: 5px;
+    font-family: 'Heebo', sans-serif;
+    color: white;
+
 }
