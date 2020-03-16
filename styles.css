@@ -93,6 +93,8 @@ a {
     color: white;
 }
 
+/* Latest articles section */
+
 .latest-article-container {
     display: grid;
     margin-top: 0;
@@ -121,8 +123,7 @@ a {
 
 .latest-header {
     display: block;
-    position: absolute;
-    /* margin: 0 auto; */
+    position: absolute;    
     text-align: center;
     margin-top: 40px;
     width: 100%;
