@@ -97,7 +97,7 @@ a {
     margin-top: 0;
     background-color: lightblue;
     grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    grid-template-rows: repeat(2, 600px);
+    grid-template-rows: repeat(2, 1fr);
 }
 
 .latest-article {
@@ -117,15 +117,16 @@ a {
     position: absolute;
     /* margin: 0 auto; */
     text-align: center;
+    margin-top: 40px;
     width: 100%;
     font-size: 35px;
 }
 
-.latest-header-span {
+.latest-header-span-1,
+.latest-header-span-2 {
     display: inline-block;
-    word-wrap: break-word;
-    width: 370px;
     background-color: white;
+    padding: 5px;
 }
 
 .article-figure {
@@ -191,12 +192,17 @@ a {
     text-decoration: none;
     color: white;
     font-size: 50px;
-    margin-top: 120px;
+    justify-content: flex-end;
     margin-bottom: 0;
 }
 
 .article-1 {
     background-color: #bc3428;
-    padding-top: 100px;
+    padding-top: 180px;
+}
+
+.article-2 {
+    background-color: #c7372a;
+    padding-top: 180px;
 }
 
