@@ -107,6 +107,11 @@ a {
     padding-right: 50px;
     padding-bottom: 30px;
     color: white;
+    justify-content: space-between;
+}
+
+.article-part-1 {
+    margin-bottom: 50px;
 }
 
 .latest {
@@ -176,7 +181,7 @@ a {
 }
 
 .article-tags {
-    display: block;
+    display: inline-block;
     font-family: 'Heebo', sans-serif;
     margin-top: 20px;
     font-size: 14px;
@@ -192,7 +197,7 @@ a {
     text-decoration: none;
     color: white;
     font-size: 50px;
-    justify-content: flex-end;
+    /* align-self: flex-end; */
     margin-bottom: 0;
 }
 
@@ -206,3 +211,12 @@ a {
     padding-top: 180px;
 }
 
+.article-3 {
+    background-color: #b13125;
+    padding-top: 50px;
+}
+
+.article-4 {
+    background-color: #bc3428;
+    padding-top: 50px;
+}
