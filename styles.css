@@ -262,6 +262,13 @@ a {
   font-family: 'Sen', sans-serif;
 }
 
+.see-latest-articles {
+  text-decoration: underline;
+  text-align: center;
+	margin: 3rem 0;
+	cursor: pointer;
+}
+
 /* New on Smahing TV section */
 
 .new-on-smashing {
