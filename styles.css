@@ -323,11 +323,40 @@ a {
 
 .person-description {
   width: 60%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 1.2rem;
 }
 
 .person-img {
   border-radius: 24px;
+}
+
+.community-links-authors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  margin-top: 3rem;
+
+}
+
+.community-authors-item {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.community-description {
+  width: 60%;
+}
+
+.community-author-header {
+  margin: 0;
+}
+
+.community-images {
+  margin-right: 10px;
+  border-radius: 6px;
+  width: 60px;
+  height: 60px;
 }
 
 /* Curated Posts section */
