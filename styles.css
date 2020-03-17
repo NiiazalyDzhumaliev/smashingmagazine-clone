@@ -265,26 +265,51 @@ a {
 .see-latest-articles {
   text-decoration: underline;
   text-align: center;
-	margin: 3rem 0;
-	cursor: pointer;
+  margin: 3rem 0;
+  cursor: pointer;
+}
+
+/* Handbook section */
+
+.handbook-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7c7f9c;
+}
+
+.handbook-header {
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  color: white;
 }
 
 /* New on Smahing TV section */
 
 .new-on-smashing {
   display: flex;
+  flex-direction: column;
   width: 90%;
-  height: 400px;
+  height: 600px;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
   margin-bottom: 1rem;
+  border-radius: 12px;
   background-color: #666;
 }
 
 .new-on-smashing-header {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  text-decoration: underline;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+
+}
+
+.new-smashing-img {
+  margin-bottom: 3rem;
+  width: 20%;
 }
 
 /* Curated Posts section */
