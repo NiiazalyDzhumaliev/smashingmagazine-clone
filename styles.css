@@ -223,6 +223,8 @@ a {
   display: grid;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 1rem;
 }
@@ -238,4 +240,22 @@ a {
   padding-left: 2%;
   width: 60%;
   font-family: 'Sen', sans-serif;
+}
+
+/* New on Smahing TV section */
+
+.new-on-smashing {
+  display: flex;
+  width: 90%;
+  height: 400px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  background-color: #666;
+}
+
+.new-on-smashing-header {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-decoration: underline;
 }
