@@ -222,7 +222,7 @@ a {
 
 .latest-posts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1rem;
   margin: 1rem 1rem;
 }
@@ -400,7 +400,7 @@ a {
 
 .curated-posts {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   grid-gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 3rem;
