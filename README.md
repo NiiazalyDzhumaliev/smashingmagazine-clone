@@ -1,6 +1,6 @@
-# Smashingmagazine clone
+# Smashing magazine clone
 
-Clone of smashingmagazine web page for study purpose
+Clone of Smashing magazine web page for study purpose
 
 [Original site](https://www.smashingmagazine.com/)
 
