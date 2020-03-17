@@ -416,6 +416,7 @@ a {
   align-items: center;
   height: 300px;
   background-color: #666;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .curated-list {
@@ -425,4 +426,26 @@ a {
 
 .curated-item-header {
   width: 80%;
+}
+
+/* Smashing newsletter section */
+
+.smashing-newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 700px;
+  margin: 0 auto;
+  background-color: #7d7580;
+}
+
+.smashing-newsletter-img {
+  width: 40%;
+}
+
+.smashing-newsletter-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4rem;
+  color: white;
 }
