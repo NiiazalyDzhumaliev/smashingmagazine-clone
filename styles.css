@@ -2,7 +2,6 @@ body {
   margin: 0;
 }
 
-
 /* Navbar */
 
 .navbar-container {
@@ -15,10 +14,6 @@ body {
   height: 160px;
   list-style-type: none;
   background-color: #d33a2c;
-}
-
-.navbar-img {
-  height: 3rem;
 }
 
 .navbar-item {
@@ -188,7 +183,6 @@ a {
   font-family: 'Heebo', sans-serif;
   margin-top: 20px;
   font-size: 14px;
-
 }
 
 .article-harsh {
@@ -200,7 +194,6 @@ a {
   text-decoration: none;
   color: white;
   font-size: 50px;
-  /* align-self: flex-end; */
   margin-bottom: 0;
 }
 
