@@ -1,0 +1,486 @@
+body {
+  margin: 0;
+  background-color: #e4e5ed;
+}
+
+/* Navbar */
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin-top: 0;
+  margin-bottom: 0;
+  height: 160px;
+  list-style-type: none;
+  background-color: #d33a2c;
+}
+
+.navbar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Heebo', sans-serif;
+  font-size: 25px;
+  color: white;
+  cursor: pointer;
+}
+
+.navbar-item-description {
+  display: block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-item-description:hover {
+  color: black;
+}
+
+.navbar-img {
+  height: 2.5rem;
+  transform: rotate(-10deg);
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-in-out;
+}
+
+.navbar-item:hover .navbar-img {
+  transform: rotate(0);
+  transform-origin: bottom left;
+}
+
+.smashing-img {
+  height: 5rem;
+}
+
+.topics-input {
+  display: flex;
+  margin-right: 30px;
+}
+
+.nav-input {
+  padding: 17px;
+  padding-left: 30px;
+  border: 4px solid white;
+  border-radius: 8px;
+  width: 130px;
+  background-color: transparent;
+  outline: none;
+}
+
+.nav-input::placeholder {
+  text-align: center;
+  font-family: 'Heebo', sans-serif;
+  font-size: 21px;
+  color: white;
+}
+
+.fa-search {
+  display: block;
+  position: absolute;
+  margin-left: 15px;
+  margin-top: 17px;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* Latest articles section */
+
+.latest-article-container {
+  display: grid;
+  margin-top: 0;
+  background-color: lightblue;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.latest-article {
+  display: flex;
+  flex-direction: column;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+  color: white;
+  justify-content: space-between;
+}
+
+.article-part-1 {
+  margin-bottom: 50px;
+}
+
+.latest {
+  background-color: violet;
+}
+
+.latest-header {
+  display: block;
+  position: absolute;
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  font-size: 35px;
+}
+
+.latest-header-span-1,
+.latest-header-span-2 {
+  display: inline-block;
+  background-color: white;
+  padding: 5px;
+}
+
+.article-figure {
+  display: flex;
+  padding-left: 15px;
+}
+
+.article-images {
+  border: 4px solid white;
+  border-radius: 10px;
+  width: 60px;
+  margin-right: 10px;
+  transform: rotate(-10deg);
+  transform-origin: bottom left;
+  transition: transform 0.2s ease-in-out;
+}
+
+.article-images:hover {
+  transform: rotate(0);
+  transform-origin: bottom left;
+  cursor: pointer;
+}
+
+.article-authors {
+  margin-top: 7px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 18px;
+}
+
+.author-text {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.article-titles {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-family: 'Heebo', sans-serif;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.article-comments {
+  display: inline-block;
+  font-size: 15px;
+}
+
+.article-tags {
+  display: inline-block;
+  font-family: 'Heebo', sans-serif;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.article-harsh {
+  color: black;
+  padding-right: 5px;
+}
+
+.article-arrow {
+  text-decoration: none;
+  color: white;
+  font-size: 50px;
+  margin-bottom: 0;
+}
+
+.article-1 {
+  background-color: #bc3428;
+  padding-top: 180px;
+}
+
+.article-2 {
+  background-color: #c7372a;
+  padding-top: 180px;
+}
+
+.article-3 {
+  background-color: #b13125;
+  padding-top: 50px;
+}
+
+.article-4 {
+  background-color: #bc3428;
+  padding-top: 50px;
+}
+
+/* Latest post section */
+
+.latest-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
+  margin: 1rem 1rem;
+}
+
+.latest-post-item {
+  height: 500px;
+  background-color: transparent;
+}
+
+.latest-post-item:hover {
+  background-color: white;
+}
+
+.posts-header {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.posts-members-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.posts-header-members {
+  text-align: center;
+  text-decoration: underline;
+  font-size: 4rem;
+}
+
+.posts-text,
+.posts-header {
+  padding-left: 5%;
+  width: 60%;
+  font-family: 'Sen', sans-serif;
+}
+
+.see-latest-articles {
+  text-decoration: underline;
+  text-align: center;
+  margin: 3rem 0;
+  cursor: pointer;
+}
+
+/* Handbook section */
+
+.handbook-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #7c7f9c;
+}
+
+.handbook-header {
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  color: white;
+}
+
+/* New on Smahing TV section */
+
+.new-on-smashing {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  background-color: #666;
+}
+
+.new-on-smashing-header {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+}
+
+.new-smashing-img {
+  margin-bottom: 3rem;
+  width: 20%;
+}
+
+/* Community links section */
+
+.community-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+}
+
+.person-description {
+  width: 60%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+}
+
+.person-img {
+  border-radius: 24px;
+}
+
+.community-links-authors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  margin-top: 10rem;
+}
+
+.community-authors-item {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+}
+
+.community-description {
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 60%;
+}
+
+.community-author-header {
+  margin: 0;
+}
+
+.community-images {
+  margin-right: 20px;
+  border-radius: 6px;
+  width: 60px;
+  height: 60px;
+}
+
+/* Featured Books section */
+
+.featured-book {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+  padding-bottom: 4rem;
+  background-color: #787980;
+}
+
+.featured-book-description {
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.featured-book-img {
+  position: absolute;
+  width: 20%;
+  right: 2rem;
+}
+
+.featured-book-header {
+  font-size: 4rem;
+}
+
+.featured-book-header,
+.featured-book-description {
+  margin-left: 2rem;
+}
+
+/* Curated Posts section */
+
+.curated-posts-main-header {
+  margin-left: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.curated-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.curated-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  background-color: #968a94;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.curated-list {
+  margin-left: 2rem;
+  align-self: flex-start;
+}
+
+.curated-item-header {
+  width: 80%;
+}
+
+/* Smashing newsletter section */
+
+.smashing-newsletter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 700px;
+  margin: 0 auto;
+  margin-bottom: 10rem;
+  background-color: #7d7580;
+}
+
+.smashing-newsletter-img {
+  width: 40%;
+}
+
+.smashing-newsletter-header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 4rem;
+  color: white;
+}
+
+/* Footer section */
+
+footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #c9c3c8;
+}
+
+.footer-upper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  width: 80%;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1.3rem;
+}
+
+.footer-header {
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-paragraph {
+  margin: 0 auto;
+  width: 30%;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
