@@ -225,7 +225,7 @@ a {
   margin-bottom: 1rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
   grid-gap: 1rem;
 }
 
@@ -258,4 +258,38 @@ a {
 .new-on-smashing-header {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   text-decoration: underline;
+}
+
+/* Curated Posts section */
+
+.curated-posts-main-header {
+  margin-left: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.curated-posts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  grid-gap: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.curated-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+  background-color: #666;
+}
+
+.curated-list {
+  margin-left: 2rem;
+  align-self: flex-start;
+}
+
+.curated-item-header {
+  width: 80%;
 }
