@@ -334,7 +334,7 @@ a {
 .community-links-authors {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-  margin-top: 3rem;
+  margin-top: 10rem;
 
 }
 
@@ -345,6 +345,8 @@ a {
 }
 
 .community-description {
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 60%;
 }
 
@@ -353,10 +355,42 @@ a {
 }
 
 .community-images {
-  margin-right: 10px;
+  margin-right: 20px;
   border-radius: 6px;
   width: 60px;
   height: 60px;
+}
+
+/* Featured Books section */
+
+.featured-book {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  margin-bottom: 8rem;
+  padding-bottom: 4rem;
+  background-color: #787980;
+}
+
+.featured-book-description {
+  width: 50%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.featured-book-img {
+  position: absolute;
+  width: 20%;
+  right: 2rem;
+}
+
+.featured-book-header {
+  font-size: 4rem;
+}
+
+.featured-book-header,
+.featured-book-description {
+  margin-left: 2rem;
 }
 
 /* Curated Posts section */
