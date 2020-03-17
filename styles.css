@@ -312,6 +312,24 @@ a {
   width: 20%;
 }
 
+/* Community links section */
+
+.community-links {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 350px;
+}
+
+.person-description {
+  width: 60%;
+  font-size: 1.2rem;
+}
+
+.person-img {
+  border-radius: 24px;
+}
+
 /* Curated Posts section */
 
 .curated-posts-main-header {
